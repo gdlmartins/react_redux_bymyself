@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import { Counter } from './counter/Counter';
 
 function App() {
   return (
     <div>
-        <h1>React - redux</h1>
+        <Counter/>
     </div>
   );
 }

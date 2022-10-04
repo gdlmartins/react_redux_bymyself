@@ -1,13 +1,13 @@
 import { configureStore } from "@reduxjs/toolkit";
-import couterReducer from "../counter/couterSlice";
+import counterReducer from '../feature/couterSlide';
 
 
-export const store = configureStore({
+const store = configureStore({
     reducer:{
-        counter: couterReducer,
-    },
+        counter: counterReducer},
 })
 
 
-console.log(store.dispatch);
-console.log(store);
+export default store;
+
+
